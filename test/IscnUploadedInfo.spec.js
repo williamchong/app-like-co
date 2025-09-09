@@ -1,10 +1,10 @@
 import './stub'
 import { mount } from '@vue/test-utils'
-import UploadForm from '~/components/IscnUploadForm.vue'
+import IscnUploadedInfo from '~/components/IscnUploadedInfo.vue'
 
-describe('UploadForm', () => {
+describe('IscnUploadedInfo', () => {
   test('is a Vue instance', () => {
-    const wrapper = mount(UploadForm, {
+    const wrapper = mount(IscnUploadedInfo, {
       mocks: {
         $t: (key) => key,
         localeLocation: () => {},
